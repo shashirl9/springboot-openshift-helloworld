@@ -15,6 +15,6 @@ public class SpringbootOpenshiftHelloworldApplication {
 
 	@GetMapping
 	public String display() {
-		return "<h1>Welcome to Openshift ...!</h1>";
+		return "<h1>Welcome to Docker image on Docker hub ...!</h1>";
 	}
 }
